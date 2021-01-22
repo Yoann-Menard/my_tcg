@@ -9,7 +9,7 @@ export default class Deck {
         this.cards.sort();
         this.cards.reverse();
 
-        if(unshuffled.length > 0) {
+        if(unshuffled !== this.cards) {
             return true;
         } else {
             return false;
